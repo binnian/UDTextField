@@ -20,7 +20,7 @@ struct ContentView: View {
                 Group {
                     Text("自定义键盘，完美支持中文")
                     Text("支持实时获取修改内容")
-                    Text("感谢Start")
+                    Text("🙏   感谢 Star ✨🌟")
                 }.padding()
                 
                 UDTextField("请输入内容", text: $text).frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
