@@ -23,7 +23,7 @@ struct ContentView: View {
                     Text("🙏   感谢 Star ✨🌟")
                 }.padding()
                 
-                UDTextField("请输入内容", text: $text).frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                UDTextField("请输入内容", text: $text).frame(width: 200, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .padding(.leading,10)
                     .foregroundColor(.black)
                     .background(Color.white)
