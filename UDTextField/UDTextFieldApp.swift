@@ -11,7 +11,7 @@ import SwiftUI
 struct UDTextFieldApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(text: "")
         }
     }
 }

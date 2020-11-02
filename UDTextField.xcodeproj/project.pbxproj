@@ -13,6 +13,7 @@
 		18A3CB0E254FABF0009A0C3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3CB0D254FABF0009A0C3B /* Preview Assets.xcassets */; };
 		18A3CB19254FABF0009A0C3B /* UDTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB18254FABF0009A0C3B /* UDTextFieldTests.swift */; };
 		18A3CB24254FABF0009A0C3B /* UDTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB23254FABF0009A0C3B /* UDTextFieldUITests.swift */; };
+		18A3CB3E254FAC56009A0C3B /* UDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB3D254FAC56009A0C3B /* UDTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		18A3CB1F254FABF0009A0C3B /* UDTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A3CB23254FABF0009A0C3B /* UDTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDTextFieldUITests.swift; sourceTree = "<group>"; };
 		18A3CB25254FABF0009A0C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3CB3D254FAC56009A0C3B /* UDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		18A3CB05254FABED009A0C3B /* UDTextField */ = {
 			isa = PBXGroup;
 			children = (
+				18A3CB3D254FAC56009A0C3B /* UDTextField.swift */,
 				18A3CB06254FABED009A0C3B /* UDTextFieldApp.swift */,
 				18A3CB08254FABED009A0C3B /* ContentView.swift */,
 				18A3CB0A254FABF0009A0C3B /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				18A3CB09254FABED009A0C3B /* ContentView.swift in Sources */,
 				18A3CB07254FABED009A0C3B /* UDTextFieldApp.swift in Sources */,
+				18A3CB3E254FAC56009A0C3B /* UDTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
