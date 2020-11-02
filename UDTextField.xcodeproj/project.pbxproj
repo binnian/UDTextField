@@ -14,6 +14,7 @@
 		18A3CB19254FABF0009A0C3B /* UDTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB18254FABF0009A0C3B /* UDTextFieldTests.swift */; };
 		18A3CB24254FABF0009A0C3B /* UDTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB23254FABF0009A0C3B /* UDTextFieldUITests.swift */; };
 		18A3CB3E254FAC56009A0C3B /* UDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB3D254FAC56009A0C3B /* UDTextField.swift */; };
+		18A3CB53254FDE90009A0C3B /* UD.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18A3CB52254FDE90009A0C3B /* UD.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18A3CB23254FABF0009A0C3B /* UDTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDTextFieldUITests.swift; sourceTree = "<group>"; };
 		18A3CB25254FABF0009A0C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A3CB3D254FAC56009A0C3B /* UDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDTextField.swift; sourceTree = "<group>"; };
+		18A3CB52254FDE90009A0C3B /* UD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UD.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		18A3CAFA254FABED009A0C3B = {
 			isa = PBXGroup;
 			children = (
+				18A3CB51254FDE79009A0C3B /* gif */,
 				18A3CB05254FABED009A0C3B /* UDTextField */,
 				18A3CB17254FABF0009A0C3B /* UDTextFieldTests */,
 				18A3CB22254FABF0009A0C3B /* UDTextFieldUITests */,
@@ -131,6 +134,14 @@
 				18A3CB25254FABF0009A0C3B /* Info.plist */,
 			);
 			path = UDTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		18A3CB51254FDE79009A0C3B /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				18A3CB52254FDE90009A0C3B /* UD.gif */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 			files = (
 				18A3CB0E254FABF0009A0C3B /* Preview Assets.xcassets in Resources */,
 				18A3CB0B254FABF0009A0C3B /* Assets.xcassets in Resources */,
+				18A3CB53254FDE90009A0C3B /* UD.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
