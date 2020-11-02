@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A3CB07254FABED009A0C3B /* UDTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB06254FABED009A0C3B /* UDTextFieldApp.swift */; };
+		18A3CB09254FABED009A0C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB08254FABED009A0C3B /* ContentView.swift */; };
+		18A3CB0B254FABF0009A0C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3CB0A254FABF0009A0C3B /* Assets.xcassets */; };
+		18A3CB0E254FABF0009A0C3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3CB0D254FABF0009A0C3B /* Preview Assets.xcassets */; };
+		18A3CB19254FABF0009A0C3B /* UDTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB18254FABF0009A0C3B /* UDTextFieldTests.swift */; };
+		18A3CB24254FABF0009A0C3B /* UDTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CB23254FABF0009A0C3B /* UDTextFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A3CB15254FABF0009A0C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3CAFB254FABED009A0C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3CB02254FABED009A0C3B;
+			remoteInfo = UDTextField;
+		};
+		18A3CB20254FABF0009A0C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3CAFB254FABED009A0C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3CB02254FABED009A0C3B;
+			remoteInfo = UDTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A3CB03254FABED009A0C3B /* UDTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3CB06254FABED009A0C3B /* UDTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDTextFieldApp.swift; sourceTree = "<group>"; };
+		18A3CB08254FABED009A0C3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18A3CB0A254FABF0009A0C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A3CB0D254FABF0009A0C3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A3CB0F254FABF0009A0C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3CB14254FABF0009A0C3B /* UDTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3CB18254FABF0009A0C3B /* UDTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDTextFieldTests.swift; sourceTree = "<group>"; };
+		18A3CB1A254FABF0009A0C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3CB1F254FABF0009A0C3B /* UDTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3CB23254FABF0009A0C3B /* UDTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDTextFieldUITests.swift; sourceTree = "<group>"; };
+		18A3CB25254FABF0009A0C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A3CB00254FABED009A0C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3CB11254FABF0009A0C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3CB1C254FABF0009A0C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A3CAFA254FABED009A0C3B = {
+			isa = PBXGroup;
+			children = (
+				18A3CB05254FABED009A0C3B /* UDTextField */,
+				18A3CB17254FABF0009A0C3B /* UDTextFieldTests */,
+				18A3CB22254FABF0009A0C3B /* UDTextFieldUITests */,
+				18A3CB04254FABED009A0C3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A3CB04254FABED009A0C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A3CB03254FABED009A0C3B /* UDTextField.app */,
+				18A3CB14254FABF0009A0C3B /* UDTextFieldTests.xctest */,
+				18A3CB1F254FABF0009A0C3B /* UDTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A3CB05254FABED009A0C3B /* UDTextField */ = {
+			isa = PBXGroup;
+			children = (
+				18A3CB06254FABED009A0C3B /* UDTextFieldApp.swift */,
+				18A3CB08254FABED009A0C3B /* ContentView.swift */,
+				18A3CB0A254FABF0009A0C3B /* Assets.xcassets */,
+				18A3CB0F254FABF0009A0C3B /* Info.plist */,
+				18A3CB0C254FABF0009A0C3B /* Preview Content */,
+			);
+			path = UDTextField;
+			sourceTree = "<group>";
+		};
+		18A3CB0C254FABF0009A0C3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18A3CB0D254FABF0009A0C3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18A3CB17254FABF0009A0C3B /* UDTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3CB18254FABF0009A0C3B /* UDTextFieldTests.swift */,
+				18A3CB1A254FABF0009A0C3B /* Info.plist */,
+			);
+			path = UDTextFieldTests;
+			sourceTree = "<group>";
+		};
+		18A3CB22254FABF0009A0C3B /* UDTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3CB23254FABF0009A0C3B /* UDTextFieldUITests.swift */,
+				18A3CB25254FABF0009A0C3B /* Info.plist */,
+			);
+			path = UDTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A3CB02254FABED009A0C3B /* UDTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3CB28254FABF0009A0C3B /* Build configuration list for PBXNativeTarget "UDTextField" */;
+			buildPhases = (
+				18A3CAFF254FABED009A0C3B /* Sources */,
+				18A3CB00254FABED009A0C3B /* Frameworks */,
+				18A3CB01254FABED009A0C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDTextField;
+			productName = UDTextField;
+			productReference = 18A3CB03254FABED009A0C3B /* UDTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A3CB13254FABF0009A0C3B /* UDTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3CB2B254FABF0009A0C3B /* Build configuration list for PBXNativeTarget "UDTextFieldTests" */;
+			buildPhases = (
+				18A3CB10254FABF0009A0C3B /* Sources */,
+				18A3CB11254FABF0009A0C3B /* Frameworks */,
+				18A3CB12254FABF0009A0C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3CB16254FABF0009A0C3B /* PBXTargetDependency */,
+			);
+			name = UDTextFieldTests;
+			productName = UDTextFieldTests;
+			productReference = 18A3CB14254FABF0009A0C3B /* UDTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A3CB1E254FABF0009A0C3B /* UDTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3CB2E254FABF0009A0C3B /* Build configuration list for PBXNativeTarget "UDTextFieldUITests" */;
+			buildPhases = (
+				18A3CB1B254FABF0009A0C3B /* Sources */,
+				18A3CB1C254FABF0009A0C3B /* Frameworks */,
+				18A3CB1D254FABF0009A0C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3CB21254FABF0009A0C3B /* PBXTargetDependency */,
+			);
+			name = UDTextFieldUITests;
+			productName = UDTextFieldUITests;
+			productReference = 18A3CB1F254FABF0009A0C3B /* UDTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A3CAFB254FABED009A0C3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					18A3CB02254FABED009A0C3B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					18A3CB13254FABF0009A0C3B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 18A3CB02254FABED009A0C3B;
+					};
+					18A3CB1E254FABF0009A0C3B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 18A3CB02254FABED009A0C3B;
+					};
+				};
+			};
+			buildConfigurationList = 18A3CAFE254FABED009A0C3B /* Build configuration list for PBXProject "UDTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A3CAFA254FABED009A0C3B;
+			productRefGroup = 18A3CB04254FABED009A0C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A3CB02254FABED009A0C3B /* UDTextField */,
+				18A3CB13254FABF0009A0C3B /* UDTextFieldTests */,
+				18A3CB1E254FABF0009A0C3B /* UDTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A3CB01254FABED009A0C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3CB0E254FABF0009A0C3B /* Preview Assets.xcassets in Resources */,
+				18A3CB0B254FABF0009A0C3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3CB12254FABF0009A0C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3CB1D254FABF0009A0C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A3CAFF254FABED009A0C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3CB09254FABED009A0C3B /* ContentView.swift in Sources */,
+				18A3CB07254FABED009A0C3B /* UDTextFieldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3CB10254FABF0009A0C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3CB19254FABF0009A0C3B /* UDTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3CB1B254FABF0009A0C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3CB24254FABF0009A0C3B /* UDTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A3CB16254FABF0009A0C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3CB02254FABED009A0C3B /* UDTextField */;
+			targetProxy = 18A3CB15254FABF0009A0C3B /* PBXContainerItemProxy */;
+		};
+		18A3CB21254FABF0009A0C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3CB02254FABED009A0C3B /* UDTextField */;
+			targetProxy = 18A3CB20254FABF0009A0C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18A3CB26254FABF0009A0C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A3CB27254FABF0009A0C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A3CB29254FABF0009A0C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UDTextField/Preview Content\"";
+				DEVELOPMENT_TEAM = 98747Z5C53;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UDTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A3CB2A254FABF0009A0C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UDTextField/Preview Content\"";
+				DEVELOPMENT_TEAM = 98747Z5C53;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UDTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18A3CB2C254FABF0009A0C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98747Z5C53;
+				INFOPLIST_FILE = UDTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDTextField.app/UDTextField";
+			};
+			name = Debug;
+		};
+		18A3CB2D254FABF0009A0C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98747Z5C53;
+				INFOPLIST_FILE = UDTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDTextField.app/UDTextField";
+			};
+			name = Release;
+		};
+		18A3CB2F254FABF0009A0C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98747Z5C53;
+				INFOPLIST_FILE = UDTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UDTextField;
+			};
+			name = Debug;
+		};
+		18A3CB30254FABF0009A0C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98747Z5C53;
+				INFOPLIST_FILE = UDTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UDTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A3CAFE254FABED009A0C3B /* Build configuration list for PBXProject "UDTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3CB26254FABF0009A0C3B /* Debug */,
+				18A3CB27254FABF0009A0C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3CB28254FABF0009A0C3B /* Build configuration list for PBXNativeTarget "UDTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3CB29254FABF0009A0C3B /* Debug */,
+				18A3CB2A254FABF0009A0C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3CB2B254FABF0009A0C3B /* Build configuration list for PBXNativeTarget "UDTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3CB2C254FABF0009A0C3B /* Debug */,
+				18A3CB2D254FABF0009A0C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3CB2E254FABF0009A0C3B /* Build configuration list for PBXNativeTarget "UDTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3CB2F254FABF0009A0C3B /* Debug */,
+				18A3CB30254FABF0009A0C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A3CAFB254FABED009A0C3B /* Project object */;
+}
